@@ -1,4 +1,6 @@
 parser	/www/sites/theBibliotek/readPdf.php	/^$parser = new \\Smalot\\PdfParser\\Parser();$/;"	variable	line:4
-pdf	/www/sites/theBibliotek/readPdf.php	/^$pdf = $parser->parseFile('pdf\/test.pdf');$/;"	variable	line:5
-pages	/www/sites/theBibliotek/readPdf.php	/^$pages = $pdf->getPages();$/;"	variable	line:9
-pageCount	/www/sites/theBibliotek/readPdf.php	/^$pageCount = 1;$/;"	variable	line:11
+pdf	/www/sites/theBibliotek/readPdf.php	/^$pdf = $parser->parseFile('pdf\/test2.pdf');$/;"	variable	line:5
+pages	/www/sites/theBibliotek/readPdf.php	/^$pages = $pdf->getPages();$/;"	variable	line:7
+pageCount	/www/sites/theBibliotek/readPdf.php	/^$pageCount = 1;$/;"	variable	line:9
+fonts	/www/sites/theBibliotek/readPdf.php	/^    $fonts = $page->getFonts();$/;"	variable	line:13
+key	/www/sites/theBibliotek/readPdf.php	/^    foreach ($fonts as $key => $font) {$/;"	variable	line:14
